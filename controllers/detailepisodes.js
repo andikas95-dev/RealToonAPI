@@ -11,10 +11,9 @@ exports.showDetailEpisodes = (req, res) => {
         where: { idComics: webtoonId, idListEpisodes: episodeId }
     })
         .then((result) => {
-            res.send({
-                result,
-                message: "Success"
-            })
+            res.send(
+                result
+            )
         })
 }
 // exports.showEpisodes = (req, res) => {
