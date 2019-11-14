@@ -4,17 +4,14 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('genres', [
       {
-        title_genre: 'Drama',
-        description: 'Ini adalah Genre Drama',
+        title: "romance"
       },
       {
-        title_genre: 'Romance',
-        description: 'Ini adalah Genre Romance',
+        title: "drama"
       },
       {
-        title_genre: 'Horor',
-        description: 'Ini adalah Genre Horor',
-      },
+        title: "action"
+      }
     ], {});
   },
 
