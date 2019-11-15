@@ -2,8 +2,8 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.bulkInsert('my_favorites', [
-    ], {});
+    // return queryInterface.bulkInsert('my_favorites', [
+    // ], {});
   },
 
   down: (queryInterface, Sequelize) => {
